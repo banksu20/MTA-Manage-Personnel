@@ -32,7 +32,8 @@ if (isset($_GET['update'])) {
     <link rel="stylesheet" href="../assets/icons/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/dashboard.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-</head>
+    <link rel="icon" href="../images/mta.jpg">
+  </head>
 <body class="default">
 <?php include 'include/header.php'; ?>
     <div class="container-fluid">

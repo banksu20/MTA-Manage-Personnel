@@ -41,7 +41,8 @@ $query = mysqli_query($Connection,$sql);
     <link rel="stylesheet" href="assets/dashboard.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <title>กรอกข้อมูล</title>
+    <title><?php echo $title; ?></title>
+    <link rel="icon" href="../images/mta.jpg">
   </head>
   <body class="default">
     <?php include 'include/header.php'; ?>

@@ -10,6 +10,7 @@ require_once('connections/mysqli.php');
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/icons/bootstrap-icons.css">
   <link rel="stylesheet" href="main.css">
+  <link rel="icon" href="images/mta.jpg">
 </head>
 <body class="default">
   <?php include 'includes/navbar.php';?>
@@ -17,7 +18,7 @@ require_once('connections/mysqli.php');
   <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="img-page">
-      <img src="images/mta.jpg"  alt="">
+      <img src="images/mta.jpg" alt="">
     </div>
 </div>
 </div>

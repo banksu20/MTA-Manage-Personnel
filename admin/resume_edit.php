@@ -29,7 +29,8 @@ if (isset($_POST["submit"])) {
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/icons/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/dashboard.css">
-    <title>กรอกข้อมูล</title>
+    <title><?php echo $title; ?></title>
+    <link rel="icon" href="../images/mta.jpg">
   </head>
   <body>
     <?php include 'include/header.php'; ?>

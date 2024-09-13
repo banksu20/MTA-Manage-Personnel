@@ -39,6 +39,7 @@ if (isset($_POST["submit"])) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title><?php echo $title; ?></title>
+  <link rel="icon" href="images/mta.jpg">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/icons/bootstrap-icons.css">
 </head>
